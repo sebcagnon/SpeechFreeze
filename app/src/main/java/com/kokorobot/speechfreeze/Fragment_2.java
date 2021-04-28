@@ -39,7 +39,7 @@ public class Fragment_2 extends Fragment
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_1, container, false);
+        View view = inflater.inflate(R.layout.fragment_2, container, false);
         view.findViewById(R.id.menu_button).setOnClickListener(this);
         return view;
     }

@@ -93,7 +93,7 @@ public class Fragment_1 extends Fragment
             mListener = null;
         }
         mRobot.stopSay();
-        mRobot.stopListening();
+        mRobot.stopListening(); // => NuwaRobotAPI.stopListen()
         super.onPause();
     }
 
